@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const LeftNav = () => {
     //state declare
     const [categories, setCategories] = useState([]);
-     console.log(categories)
+
     //using useEffect hook to load api
     useEffect(() => {
         fetch('http://localhost:5000/news-category')
